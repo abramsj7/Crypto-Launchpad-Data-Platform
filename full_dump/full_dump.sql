@@ -38,6 +38,7 @@ CREATE TABLE `associated_with` (
 
 LOCK TABLES `associated_with` WRITE;
 /*!40000 ALTER TABLE `associated_with` DISABLE KEYS */;
+INSERT INTO `associated_with` VALUES (9103,9401),(9103,9402),(9103,9403);
 /*!40000 ALTER TABLE `associated_with` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -144,7 +145,7 @@ CREATE TABLE `investor` (
 
 LOCK TABLES `investor` WRITE;
 /*!40000 ALTER TABLE `investor` DISABLE KEYS */;
-INSERT INTO `investor` VALUES (1,'Mcconnell Group','VC',NULL,NULL),(2,'Long-Murray','Influencer',NULL,NULL),(3,'Vaughn and Sons','VC',NULL,NULL),(4,'Holmes Ltd','DAO',NULL,NULL),(5,'Day, Adkins and Williams','Influencer',NULL,NULL),(6,'Ayala, Scott and Mcclure','VC',NULL,NULL),(7,'Cruz Inc','Influencer',NULL,NULL),(8,'Morgan, Garcia and Hawkins','Influencer',NULL,NULL),(9,'Navarro, Johnson and Padilla','DAO',NULL,NULL),(10,'Collins, Johnson and Daniels','Angel',NULL,NULL),(11,'Wright, Orozco and Cox','Angel',NULL,NULL),(12,'Strong, Frye and Davis','Influencer',NULL,NULL),(13,'Conrad LLC','Influencer',NULL,NULL),(14,'Moore PLC','Angel',NULL,NULL),(15,'Jackson and Sons','DAO',NULL,NULL),(16,'Bennett LLC','VC',NULL,NULL),(17,'Quinn Inc','Angel',NULL,NULL),(18,'Myers, Hensley and Horne','Influencer',NULL,NULL),(19,'Roy, Peterson and Meyers','Angel',NULL,NULL),(20,'Collins-Jones','Influencer',NULL,NULL),(21,'Mullins-Mckenzie','VC',NULL,NULL),(22,'Rangel Inc','Influencer',NULL,NULL),(23,'Molina-King','Angel',NULL,NULL),(24,'Lewis, Barton and Smith','DAO',NULL,NULL),(25,'Black, Lambert and Williams','Influencer',NULL,NULL),(26,'Leonard-Holden','VC',NULL,NULL),(27,'Rowe Group','DAO',NULL,NULL),(28,'Cook Inc','DAO',NULL,NULL),(29,'Lee and Sons','VC',NULL,NULL),(30,'Jackson, Velez and Newton','DAO',NULL,NULL),(31,'Preston, Powell and Hester','DAO',NULL,NULL),(32,'Thomas, Nelson and Lang','Influencer',NULL,NULL),(33,'Richardson PLC','DAO',NULL,NULL),(34,'Dillon, Thomas and Torres','DAO',NULL,NULL),(35,'Robinson Inc','Angel',NULL,NULL),(36,'Sullivan Inc','Influencer',NULL,NULL),(37,'Smith-Anderson','VC',NULL,NULL),(38,'Rose-Singh','Angel',NULL,NULL),(39,'Wiggins, Daniels and Baker','VC',NULL,NULL),(40,'Cannon-Reed','VC',NULL,NULL),(41,'Morgan, Holder and Gallegos','Influencer',NULL,NULL),(42,'Cowan LLC','Influencer',NULL,NULL),(43,'Thomas-Dorsey','DAO',NULL,NULL),(44,'Smith-Jackson','DAO',NULL,NULL),(45,'Roman Inc','Influencer',NULL,NULL),(46,'Clements, Schmidt and Young','Angel',NULL,NULL),(47,'Carter-Murillo','Angel',NULL,NULL),(48,'Horton, Savage and Deleon','VC',NULL,NULL),(49,'Lamb Group','VC',NULL,NULL),(50,'Cox, Mcpherson and Greene','Influencer',NULL,NULL),(51,'Nielsen-Douglas','Angel',NULL,NULL),(52,'Brown-Walter','Influencer',NULL,NULL),(53,'Cole-Buchanan','VC',NULL,NULL),(54,'Robinson-Gonzalez','DAO',NULL,NULL),(55,'Lloyd, Nguyen and Stone','DAO',NULL,NULL),(56,'Crosby Group','DAO',NULL,NULL),(57,'Randall, Thomas and Henderson','DAO',NULL,NULL),(58,'Lewis LLC','Angel',NULL,NULL),(59,'Phillips PLC','Angel',NULL,NULL),(60,'Burton LLC','DAO',NULL,NULL),(61,'Mcintyre, Phillips and Hinton','Angel',NULL,NULL),(62,'Smith-Macias','DAO',NULL,NULL),(63,'Smith Group','Influencer',NULL,NULL),(64,'Mendoza-Jones','Influencer',NULL,NULL),(65,'Hill, Williams and Thomas','Influencer',NULL,NULL),(66,'Cook LLC','Angel',NULL,NULL),(67,'Thomas Inc','Influencer',NULL,NULL),(68,'Noble PLC','VC',NULL,NULL),(69,'English, Daugherty and Mcdonald','Influencer',NULL,NULL),(70,'Esparza PLC','Influencer',NULL,NULL),(71,'Gonzalez, Munoz and Hunter','VC',NULL,NULL),(72,'Smith PLC','Angel',NULL,NULL),(73,'Gross-Gonzalez','Influencer',NULL,NULL),(74,'Navarro, Long and Conley','Angel',NULL,NULL),(75,'Meza-Lawrence','Influencer',NULL,NULL),(76,'Herman-Allen','VC',NULL,NULL),(77,'Bryant, Roberts and Miranda','VC',NULL,NULL),(78,'Harris, Cole and Perez','VC',NULL,NULL),(79,'Kirk, Stevenson and Callahan','DAO',NULL,NULL),(80,'Higgins-Smith','Angel',NULL,NULL),(81,'Shields, Guzman and Hernandez','Angel',NULL,NULL),(82,'Rhodes Ltd','DAO',NULL,NULL),(83,'Smith, Glenn and Jones','Angel',NULL,NULL),(84,'Koch PLC','Angel',NULL,NULL),(85,'Barr Ltd','DAO',NULL,NULL),(86,'King, Barnett and Russell','Angel',NULL,NULL),(87,'Harris, Davis and Brown','Influencer',NULL,NULL),(88,'Sanders-Sullivan','VC',NULL,NULL),(89,'Morrison LLC','DAO',NULL,NULL),(90,'Ford, Walker and Cruz','VC',NULL,NULL),(91,'Wilson and Sons','Angel',NULL,NULL),(92,'Graham-Cannon','VC',NULL,NULL),(93,'Bird-York','Angel',NULL,NULL),(94,'Wells Inc','VC',NULL,NULL),(95,'Smith, Alexander and Stevenson','Influencer',NULL,NULL),(96,'Williams-Larsen','DAO',NULL,NULL),(97,'Brennan-Simon','VC',NULL,NULL),(98,'Shaw, Richardson and Phillips','Angel',NULL,NULL),(99,'Ramos PLC','VC',NULL,NULL),(100,'Kerr-Walter','VC',NULL,NULL),(101,'Nichols Inc','Influencer',NULL,NULL),(102,'Smith, Gonzales and Boone','Influencer',NULL,NULL),(103,'Rose-Hughes','VC',NULL,NULL),(104,'Golden, Lane and Torres','Angel',NULL,NULL),(105,'Hernandez, Parks and Gonzalez','Angel',NULL,NULL),(106,'Lopez-Thornton','VC',NULL,NULL),(107,'Macdonald-Patterson','Influencer',NULL,NULL),(108,'Kim Inc','DAO',NULL,NULL),(109,'Payne and Sons','DAO',NULL,NULL),(110,'Hall, Torres and Horton','Angel',NULL,NULL),(111,'Stevens, Hopkins and Mills','DAO',NULL,NULL),(112,'Porter-Johnson','Influencer',NULL,NULL),(113,'Mclaughlin-Mathis','DAO',NULL,NULL),(114,'Webb, Garcia and Jones','Angel',NULL,NULL),(115,'Pope and Sons','Angel',NULL,NULL),(116,'Quinn, Mullen and Myers','Angel',NULL,NULL),(117,'Ramirez Group','Influencer',NULL,NULL),(118,'Roman and Sons','VC',NULL,NULL),(119,'Gutierrez, Gonzalez and Johnson','DAO',NULL,NULL),(120,'Collins LLC','Angel',NULL,NULL),(121,'Bartlett Group','Influencer',NULL,NULL),(122,'Aguirre, Moreno and Fleming','Angel',NULL,NULL),(123,'Ball, Sharp and Johnson','DAO',NULL,NULL),(124,'Sanchez Ltd','Influencer',NULL,NULL),(125,'Kennedy Inc','DAO',NULL,NULL),(126,'Giles, Peters and Rodriguez','Influencer',NULL,NULL),(127,'Jones and Sons','VC',NULL,NULL),(128,'Juarez LLC','DAO',NULL,NULL),(129,'Sullivan Ltd','Influencer',NULL,NULL),(130,'Hernandez-Green','Influencer',NULL,NULL),(131,'Brown Group','DAO',NULL,NULL),(132,'Murphy, Tate and Elliott','Influencer',NULL,NULL),(133,'Gibson-Lin','VC',NULL,NULL),(134,'Ruiz Group','Angel',NULL,NULL),(135,'Gregory, Hernandez and Clark','Angel',NULL,NULL),(136,'Fleming, Lambert and Davila','VC',NULL,NULL),(137,'Kelley Inc','DAO',NULL,NULL),(138,'Baldwin, Thomas and Patel','Angel',NULL,NULL),(139,'Taylor and Sons','VC',NULL,NULL),(140,'Patton-Anderson','Influencer',NULL,NULL),(141,'Sexton LLC','VC',NULL,NULL),(142,'Johnson-Olson','Influencer',NULL,NULL),(143,'Harrell-Park','Influencer',NULL,NULL),(144,'Thomas Inc','DAO',NULL,NULL),(145,'Ramirez, Bowman and Thomas','VC',NULL,NULL),(146,'Smith-Skinner','VC',NULL,NULL),(147,'Stewart Inc','VC',NULL,NULL),(148,'Gonzalez, Martinez and Hampton','Influencer',NULL,NULL),(149,'West, Walker and Frazier','VC',NULL,NULL),(150,'Garcia PLC','DAO',NULL,NULL),(151,'Clayton PLC','Influencer',NULL,NULL),(152,'Wiley Ltd','Influencer',NULL,NULL),(153,'Rodriguez Group','Influencer',NULL,NULL),(154,'Cooper and Sons','VC',NULL,NULL),(155,'Smith LLC','Influencer',NULL,NULL),(156,'Buckley and Sons','Angel',NULL,NULL),(157,'Rogers, Holt and Meadows','Influencer',NULL,NULL),(158,'White-Walker','Angel',NULL,NULL),(159,'Wagner, Collins and Stephenson','VC',NULL,NULL),(160,'Russell Ltd','Angel',NULL,NULL),(161,'White Ltd','Angel',NULL,NULL),(162,'Yates, Taylor and Gordon','VC',NULL,NULL),(163,'Bush, Saunders and Brady','Angel',NULL,NULL),(164,'Phillips, Hendricks and Wright','Angel',NULL,NULL),(165,'Bridges-Chang','Angel',NULL,NULL),(166,'Lawrence-Vincent','Angel',NULL,NULL),(167,'Klein-Moore','Angel',NULL,NULL),(168,'Gibson-Cross','Influencer',NULL,NULL),(169,'Larsen PLC','VC',NULL,NULL),(170,'Morris, Bradley and Hall','VC',NULL,NULL),(171,'Cole-Cortez','DAO',NULL,NULL),(172,'Francis, Adams and Bautista','Influencer',NULL,NULL),(173,'Kaiser and Sons','VC',NULL,NULL),(174,'Jones, Fox and Schwartz','VC',NULL,NULL),(175,'Gordon, Bautista and Gonzales','Angel',NULL,NULL),(176,'Campbell, Baker and Ramirez','Influencer',NULL,NULL),(177,'Gray-Hudson','Angel',NULL,NULL),(178,'Gilmore-Wilson','Influencer',NULL,NULL),(179,'Holt, Arellano and Smith','Angel',NULL,NULL),(180,'Barber PLC','Influencer',NULL,NULL),(181,'Wilson, Proctor and Young','VC',NULL,NULL),(182,'Mcdonald-Walsh','Angel',NULL,NULL),(183,'Chambers-Bryan','Influencer',NULL,NULL),(184,'Parker PLC','Angel',NULL,NULL),(185,'Clark Ltd','VC',NULL,NULL),(186,'Taylor Group','Influencer',NULL,NULL),(187,'Allen, Burgess and Scott','Angel',NULL,NULL),(188,'Phillips-Carter','Influencer',NULL,NULL),(189,'Blackburn, Rose and Rodriguez','VC',NULL,NULL),(190,'Benson, Cooper and Smith','VC',NULL,NULL),(191,'Atkinson, Walker and Hernandez','DAO',NULL,NULL),(192,'Weeks, Morrow and Jones','Influencer',NULL,NULL),(193,'Johnson-Banks','VC',NULL,NULL),(194,'Mclaughlin Group','Influencer',NULL,NULL),(195,'Powers-Harris','Influencer',NULL,NULL),(196,'Webb-Gonzalez','Angel',NULL,NULL),(197,'Swanson, Jones and Marquez','VC',NULL,NULL),(198,'Buck PLC','DAO',NULL,NULL),(199,'Moore and Sons','Angel',NULL,NULL),(200,'Mckay, Baker and Green','Influencer',NULL,NULL),(201,'Nebula Capital','VC',NULL,NULL),(202,'Billy Madison','VC',NULL,NULL),(203,'Billy Madison','Angel',NULL,NULL),(204,'Billy Madison','DAO',NULL,NULL);
+INSERT INTO `investor` VALUES (9401,'Marshland Capital','VC','VC',NULL),(9402,'Magnus Capital','VC','VC',NULL),(9403,'Valaran Capital','VC','VC',NULL);
 /*!40000 ALTER TABLE `investor` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -181,7 +182,7 @@ CREATE TABLE `launch_event` (
 
 LOCK TABLES `launch_event` WRITE;
 /*!40000 ALTER TABLE `launch_event` DISABLE KEYS */;
-INSERT INTO `launch_event` VALUES (40001,30001,1002,NULL,NULL,'2024-05-28',2500000.00,15000000.00,'10% TGE, 3m cliff, 24m linear',0.05000000,NULL),(40003,30001,1001,NULL,NULL,'2024-01-25',3000000.00,9000000.00,'20% TGE, 12m linear',0.01500000,NULL);
+INSERT INTO `launch_event` VALUES (9301,9201,9001,NULL,NULL,'2024-01-25',3000000.00,9000000.00,'20% TGE, 12m linear',0.01500000,NULL),(9302,9202,9002,NULL,NULL,'2024-05-28',500000.00,20000000.00,'10% TGE, linear 24 months',0.03000000,NULL),(9303,9203,9002,NULL,NULL,'2024-06-15',1200000.00,15000000.00,'15% TGE, 12m linear',0.05000000,NULL);
 /*!40000 ALTER TABLE `launch_event` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -208,7 +209,7 @@ CREATE TABLE `platform` (
 
 LOCK TABLES `platform` WRITE;
 /*!40000 ALTER TABLE `platform` DISABLE KEYS */;
-INSERT INTO `platform` VALUES (1001,'Binance Launchpad','Launchpad','binance'),(1002,'DAO Maker','Launchpad','daomaker'),(1003,'Seedify.fund','Launchpad','seedify');
+INSERT INTO `platform` VALUES (9001,'Binance Launchpad','Launchpad','binance-test'),(9002,'DAO Maker','Launchpad','daomaker-test'),(9003,'Seedify.fund','Launchpad','seedify-test');
 /*!40000 ALTER TABLE `platform` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -236,7 +237,7 @@ CREATE TABLE `project` (
 
 LOCK TABLES `project` WRITE;
 /*!40000 ALTER TABLE `project` DISABLE KEYS */;
-INSERT INTO `project` VALUES (20001,'Example Project','Ethereum',NULL,'https://example.org','AI'),(20002,'PixelVerse','Ethereum',NULL,'https://pixelverse.xyz','Gaming'),(20003,'AltLayer','Ethereum',NULL,'https://altlayer.io','AI');
+INSERT INTO `project` VALUES (9101,'AltLayer','Ethereum','Infrastructure','https://altlayer.io','AI'),(9102,'SuiPad','Ethereum','Infrastructure','https://suipad.xyz','Launchpad'),(9103,'LaunchX','Ethereum','Infrastructure','https://launchx.io','Launchpad');
 /*!40000 ALTER TABLE `project` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -323,7 +324,6 @@ CREATE TABLE `stg_launch_event` (
 
 LOCK TABLES `stg_launch_event` WRITE;
 /*!40000 ALTER TABLE `stg_launch_event` DISABLE KEYS */;
-INSERT INTO `stg_launch_event` VALUES (40001,30001,1001,NULL,NULL,'2024-07-15',2500000.00,15000000.00,'10% TGE, 3m cliff, 36m linear',0.05000000,NULL),(40002,30002,1002,NULL,NULL,'2024-05-28',500000.00,20000000.00,'10% TGE, linear 24 months',0.03000000,NULL),(40003,30001,1001,NULL,NULL,'2024-01-25',3000000.00,9000000.00,'20% TGE, 12m linear',0.01500000,NULL);
 /*!40000 ALTER TABLE `stg_launch_event` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -350,7 +350,6 @@ CREATE TABLE `stg_platform` (
 
 LOCK TABLES `stg_platform` WRITE;
 /*!40000 ALTER TABLE `stg_platform` DISABLE KEYS */;
-INSERT INTO `stg_platform` VALUES (1001,'Binance Launchpad','Launchpad','binance'),(1002,'DAO Maker','Launchpad','daomaker'),(1003,'Seedify.fund','Launchpad','seedify');
 /*!40000 ALTER TABLE `stg_platform` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -378,7 +377,6 @@ CREATE TABLE `stg_project` (
 
 LOCK TABLES `stg_project` WRITE;
 /*!40000 ALTER TABLE `stg_project` DISABLE KEYS */;
-INSERT INTO `stg_project` VALUES (20001,'Example Project','Ethereum',NULL,'https://example.org','AI'),(20002,'PixelVerse','Ethereum',NULL,'https://pixelverse.xyz','Gaming'),(20003,'AltLayer','Ethereum',NULL,'https://altlayer.io','AI');
 /*!40000 ALTER TABLE `stg_project` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -413,7 +411,6 @@ CREATE TABLE `stg_token` (
 
 LOCK TABLES `stg_token` WRITE;
 /*!40000 ALTER TABLE `stg_token` DISABLE KEYS */;
-INSERT INTO `stg_token` VALUES (30001,20001,'Example Token','EXM',1000000000,'Ethereum','AI',0.05000000,NULL,NULL,'example-token'),(30002,20002,'PixelVerse','PIXEL',5000000000,'Ethereum','Gaming',0.03000000,NULL,NULL,'pixelverse'),(30003,20003,'AltLayer','ALT',10000000000,'Ethereum','AI',0.01500000,NULL,NULL,'altlayer');
 /*!40000 ALTER TABLE `stg_token` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -449,7 +446,7 @@ CREATE TABLE `token` (
 
 LOCK TABLES `token` WRITE;
 /*!40000 ALTER TABLE `token` DISABLE KEYS */;
-INSERT INTO `token` VALUES (30001,20001,'AltLayer','ALT',10000000000,'Ethereum','AI',0.01500000,NULL,NULL,'altlayer'),(30002,20002,'PixelVerse','PIXEL',5000000000,'Ethereum','Gaming',0.03000000,NULL,NULL,'pixelverse');
+INSERT INTO `token` VALUES (9201,9101,'AltLayer','ALT',10000000000,'Ethereum','AI',0.01500000,NULL,NULL,'altlayer-test'),(9202,9102,'SuiPad','SUIP',1000000000,'Ethereum','Launchpad',0.03000000,NULL,NULL,'suipad-test'),(9203,9103,'LaunchX','LNCHX',1000000000,'Ethereum','Launchpad',0.05000000,NULL,NULL,'launchx-test');
 /*!40000 ALTER TABLE `token` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -503,4 +500,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-03-28 11:15:06
+-- Dump completed on 2026-03-28 12:34:11
