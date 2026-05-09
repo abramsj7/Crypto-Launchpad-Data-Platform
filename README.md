@@ -7,6 +7,28 @@ The system is built using MySQL and demonstrates core data engineering concepts 
 
 ---
 
+## Project Structure
+
+```
+crypto-launchpad-data-platform/
+├── data/
+│   └── seed_data.sql
+├── full_dump/
+│   └── full_dump.sql
+├── schema/
+│   └── schema.sql
+└── README.md
+```
+
+- `data/seed_data.sql`
+  - Contains sample platform, project, token, investor, and launch event seed data.
+- `full_dump/full_dump.sql`
+  - Full MySQL database dump including schema definitions and inserted records.
+- `schema/schema.sql`
+  - Defines the normalized relational database schema, primary keys, foreign keys, indexes, and analytical SQL view.
+- `README.md`
+  - Project overview, setup instructions, database architecture, and analytical capabilities.
+    
 ## Key Features
 
 - Relational database design with normalized schema.
@@ -96,7 +118,9 @@ This repository represents a foundation for a production-grade data platform, no
 2. Open command prompt or MySQL client.
 3. Run the following command:
 
-mysql -u root -p < cryptolaunchpad_full.sql
+```bash
+mysql -u root -p < full_dump/full_dump.sql
+```
 
 4. Select the database:
 
