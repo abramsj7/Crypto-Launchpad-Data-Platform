@@ -115,8 +115,10 @@ This repository represents a foundation for a production-grade data platform, no
 ## How to Run
 
 1. Install MySQL Server.
+
 2. Open command prompt or MySQL client.
-3. Run the following command:
+
+3. Run the full database dump:
 
 ```bash
 mysql -u root -p < full_dump/full_dump.sql
@@ -124,14 +126,26 @@ mysql -u root -p < full_dump/full_dump.sql
 
 4. Select the database:
 
+```sql
 USE cryptolaunchpad;
+```
 
-5. Run queries or explore tables:
+5. Explore tables and views:
 
+```sql
 SHOW TABLES;
+```
 
 ---
 
+## Interview Talking Points
+
+- Designed a normalized MySQL relational database schema.
+- Implemented primary and foreign key relationships across multiple entities.
+- Built staging tables to simulate ETL-style workflows.
+- Created analytical SQL views to calculate token ROI metrics.
+- Structured data to support reporting and analytics use cases.
+  
 ## Summary
 
 This project demonstrates the ability to design and implement a structured data platform for analyzing complex ecosystems. It highlights skills in SQL, data modeling, and analytical thinking applicable to real-world data engineering and analytics roles.
