@@ -50,7 +50,7 @@ This demonstrates how raw relational data can be transformed into meaningful fin
 
 ---
 
-## ⚠️ Project Status & Data Disclaimer
+## Project Status & Data Disclaimer
 
 This project is a proof-of-concept data platform designed to model the structure and relationships of a crypto launchpad ecosystem.
 
